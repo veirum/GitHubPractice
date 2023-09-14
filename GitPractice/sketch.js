@@ -5,9 +5,14 @@ function setup() {
 }
 
 function draw() {
+
   x+=10
   background(0,20);
   fill(255)
   noStroke()
   ellipse(x%width,200,100,100);
+
+  background(220);
+  fill(255, 0, 0);
+  rect(300, 300, 20);
 }
