@@ -1,4 +1,4 @@
-let x = 0
+let x = 0;
 function setup() {
   createCanvas(800, 400);
   background(0);
